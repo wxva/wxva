@@ -46,4 +46,4 @@ I play chess with a **2600 rating on Chess.com**. I value the strategic planning
 
 ## Activity
 
-<img src="https://raw.githubusercontent.com/wxva/wxva/97d2dfa11bb27a6c47887fd2537c6c4bf48e3bff/snake-live.svg" alt="Snake animation" />
+<img src="https://raw.githubusercontent.com/wxva/wxva/9603654fc1d89dc5702a6fce9d6180363c11d2b9/snake-live.svg" alt="Snake animation" />
