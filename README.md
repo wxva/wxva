@@ -7,18 +7,6 @@ I'm a **17-year-old software engineer** building reliable applications, backend 
 ## Core Skills
 
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=python,cpp,rust,go,typescript,nodejs,fastapi,postgresql,redis,linux,git,docker&theme=dark&perline=6" alt="Primary languages and development tools" />
-</p>
-
-- **Core languages:** Python · C++ · Rust · Go · TypeScript · SQL
-- **Engineering:** Data Structures & Algorithms · Software Architecture · API & Database Design · Automated Testing · Debugging · Performance Optimization
-- **Backend & Data:** Node.js · FastAPI · PostgreSQL · Redis
-- **Environment:** Linux · Git · Docker
-
-<details>
-<summary>Full skills and technologies</summary>
-
-<p align="left">
   <img src="https://skillicons.dev/icons?i=python,cpp,rust,go,typescript,java,cs,c,js,swift,kotlin,dart,php,ruby,lua,zig,r,scala,perl,haskell,bash,nodejs,fastapi,express,django,flask,postgresql,mysql,mongodb,sqlite,redis,firebase,supabase,docker,kubernetes,aws,gcp,azure,vercel,git,github,gitlab,linux,ubuntu,npm,pnpm,postman,vite,electron,html,css,react,nextjs,vue,angular,svelte,astro,flutter,tailwindcss,bootstrap,materialui,pytorch,tensorflow,arduino,raspberrypi,figma,illustrator,aftereffects,photoshop&theme=dark&perline=14" alt="Languages, frameworks, databases and development tools" />
 </p>
 
@@ -35,8 +23,6 @@ I'm a **17-year-old software engineer** building reliable applications, backend 
 - **Design & Multimedia:** Figma · Adobe Photoshop · Illustrator · After Effects
 - **Product & Delivery:** Requirements Definition · Prioritization · Delivery Planning · Work Coordination · Risk Management · Product Metrics · Hypothesis Testing · User Behavior Analysis
 - **Leadership & Collaboration:** Clear Communication · Accountability · Initiative · Shared Goals · Critical Thinking · Adaptability · Constructive Feedback · Explaining Complex Ideas
-
-</details>
 
 ## Infrastructure & Security Research
 
