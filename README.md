@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/wxva/wxva/main/banner-photo-wide.png" alt="Study setup" width="100%">
+<img src="https://raw.githubusercontent.com/wxva/wxva/main/banner-study.jpeg" alt="Study setup" width="100%">
 
 I'm a **17-year-old developer**, passionate about building modern web applications and continuously improving my software engineering skills.
 
