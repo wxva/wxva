@@ -9,16 +9,17 @@ I'm currently focused on building projects that go beyond basic implementations 
 ## 🛠️ Tech Stack
 
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=html,css,js,typescript,bootstrap,tailwindcss,nodejs,react,nextjs,astro,flutter,docker,git,postgresql,mongodb,sqlite,python,cs,materialui,npm,pnpm,postman,vercel,supabase,vite,arduino,figma,illustrator,aftereffects,photoshop&theme=dark" alt="core skills" />
+  <img src="https://skillicons.dev/icons?i=html,css,js,typescript,bootstrap,tailwindcss,nodejs,react,nextjs,astro,flutter,docker,git,postgresql,mongodb,sqlite,python,cs,materialui,npm,pnpm,postman,vercel,supabase,vite,arduino,figma,illustrator,aftereffects,photoshop,cpp,rust,swift,pytorch,fastapi,express,redis,linux,electron&theme=dark&perline=13" alt="core skills" />
 </p>
 
-- **Languages:** JavaScript · TypeScript · Python
+- **Languages:** JavaScript · TypeScript · Python · C++ · Rust · Swift · SQL
 - **Frontend & Mobile:** HTML5 · CSS3 · React · Next.js · Astro · Flutter · React Native · Tailwind CSS · Bootstrap · Material UI
-- **Backend & Cloud:** Node.js · Supabase
-- **Databases:** PostgreSQL · MongoDB · SQLite
-- **DevOps & Tools:** Git · Docker · Vite · npm · pnpm · Postman · Vercel
+- **ML & Systems:** PyTorch · ONNX · CUDA · pybind11 · MLX · Continuous Batching · Autograd
+- **Backend & Cloud:** Node.js · Supabase · FastAPI · Express · REST APIs · RPC
+- **Databases:** PostgreSQL · MongoDB · SQLite · Redis
+- **DevOps & Tools:** Git · Docker · Vite · npm · pnpm · Postman · Vercel · Linux · Electron · Apple Silicon / Metal
 - **Design & Multimedia:** Figma · Adobe Photoshop · Illustrator · After Effects
-- **Hardware & IoT:** Arduino
+- **Hardware & IoT:** Arduino · ESP32
 
 ---
 
