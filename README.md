@@ -1,6 +1,6 @@
-<img src="https://raw.githubusercontent.com/wxva/wxva/main/banner-manga-original.png" alt="black-and-white manga banner" width="100%">
+<img src="https://raw.githubusercontent.com/wxva/wxva/main/banner-manga-slim.png" alt="black-and-white manga banner" width="100%">
 
-I'm **wxva, a 17-year-old developer**, passionate about building modern web applications and continuously improving my software engineering skills.
+I'm a **17-year-old developer**, passionate about building modern web applications and continuously improving my software engineering skills.
 
 I mainly work with **JavaScript, TypeScript, React, Next.js and Tailwind CSS**, while expanding my knowledge into backend development, databases, APIs, architecture and scalable applications.
 
@@ -24,12 +24,13 @@ I'm currently focused on building projects that go beyond basic implementations 
 
 ## 🌐 Let's connect
 
-[![GitHub](https://img.shields.io/badge/GitHub-%40wxva-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/wxva)
+[![GitHub](https://img.shields.io/badge/🌎_GitHub-@wxva-7c3aed?style=flat-square)](https://github.com/wxva)
+[![Projects](https://img.shields.io/badge/💼_Projects-@wxva-0a66c2?style=flat-square)](https://github.com/wxva?tab=repositories)
 
 ###
 
 <br clear="both">
 
-<img src="https://raw.githubusercontent.com/wxva/wxva/snake-output/snake.svg" alt="Snake animation" />
+<img src="https://raw.githubusercontent.com/wxva/wxva/snake-output/snake-live.svg" alt="Snake animation" />
 
 ###

@@ -9,6 +9,7 @@ on:
       - main
     paths:
       - .github/workflows/snake.yml
+      - snake-snapshot.svg
 
 concurrency:
   group: snake-animation
@@ -26,7 +27,29 @@ jobs:
         uses: Platane/snk/svg-only@d8f6715049803e982ee5ff501b6b9b7d5deeb09b # v3
         with:
           github_user_name: ${{ github.repository_owner }}
-          outputs: dist/snake.svg?palette=github-dark
+          outputs: dist/snake-live.svg?palette=github-dark
+
+      - name: Keep authorized activity when GitHub hides the calendar
+        shell: bash
+        run: |
+          node --input-type=module <<'NODE'
+          import { readFile, writeFile } from 'node:fs/promises';
+          const output = 'dist/snake-live.svg';
+          const moves = (svg) => {
+            const keyframes = svg.split('@keyframes s0')[1]?.split('@keyframes s1')[0];
+            return keyframes && (keyframes.match(/transform:translate/g) || []).length > 1;
+          };
+          const generated = await readFile(output, 'utf8');
+          if (!moves(generated)) {
+            const url = `https://raw.githubusercontent.com/${process.env.GITHUB_REPOSITORY}/${process.env.GITHUB_SHA}/snake-snapshot.svg`;
+            const response = await fetch(url);
+            if (!response.ok) throw new Error('Authorized activity snapshot is unavailable');
+            const snapshot = await response.text();
+            if (!moves(snapshot)) throw new Error('Activity snapshot is not animated');
+            await writeFile(output, snapshot);
+            console.log('Using the authorized commit-activity snapshot because the profile calendar is private.');
+          }
+          NODE
 
       - name: Publish snake animation
         uses: crazy-max/ghaction-github-pages@df5cc2bfa78282ded844b354faee141f06b41865 # v4
