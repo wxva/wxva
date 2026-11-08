@@ -29,7 +29,7 @@ jobs:
           github_user_name: ${{ github.repository_owner }}
           outputs: dist/snake-live.svg?palette=github-dark
 
-      - name: Keep authorized activity when GitHub hides the calendar
+      - name: Keep the complete authorized activity calendar
         shell: bash
         run: |
           node --input-type=module <<'NODE'
@@ -40,15 +40,18 @@ jobs:
             const positions = keyframes ? [...keyframes.matchAll(/transform:translate\(([^)]+)\)/g)].map(match => match[1]) : [];
             return new Set(positions).size > 1;
           };
+          const filled = (svg) => (svg.match(/@keyframes c[a-z0-9]+\{/gi) || []).length;
           const generated = await readFile(output, 'utf8');
-          if (!moves(generated)) {
-            const url = `https://raw.githubusercontent.com/${process.env.GITHUB_REPOSITORY}/${process.env.GITHUB_SHA}/snake-snapshot.svg`;
-            const response = await fetch(url);
-            if (!response.ok) throw new Error('Authorized activity snapshot is unavailable');
-            const snapshot = await response.text();
-            if (!moves(snapshot)) throw new Error('Activity snapshot is not animated');
+          const url = `https://raw.githubusercontent.com/${process.env.GITHUB_REPOSITORY}/${process.env.GITHUB_SHA}/snake-snapshot.svg`;
+          const response = await fetch(url);
+          if (!response.ok) throw new Error('Authorized activity snapshot is unavailable');
+          const snapshot = await response.text();
+          if (!moves(snapshot)) throw new Error('Activity snapshot is not animated');
+          if (!moves(generated) || filled(snapshot) > filled(generated)) {
             await writeFile(output, snapshot);
-            console.log('Using the authorized commit-activity snapshot because the profile calendar is private.');
+            console.log(`Using the complete authorized snapshot: ${filled(snapshot)} occupied days; visible calendar has ${filled(generated)}.`);
+          } else {
+            console.log(`Using the current GitHub calendar with ${filled(generated)} occupied days.`);
           }
           NODE
 
