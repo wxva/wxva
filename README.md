@@ -1,25 +1,26 @@
 <img src="https://raw.githubusercontent.com/wxva/wxva/main/banner-study.jpeg" alt="Study setup" width="100%">
 
-I'm a **17-year-old developer**, passionate about building modern web applications and continuously improving my software engineering skills.
+I'm a **17-year-old software engineer** focused on building reliable, maintainable applications, backend services and developer tools.
 
-I mainly work with **JavaScript, TypeScript, React, Next.js and Tailwind CSS**, while expanding my knowledge into backend development, databases, APIs, architecture and scalable applications.
+My main stack is **JavaScript, TypeScript, React, Next.js, Node.js and Tailwind CSS**, while I'm broadening my knowledge of **Python, systems programming, databases and cloud infrastructure**.
 
-I'm currently focused on building projects that go beyond basic implementations and allow me to explore real-world software engineering concepts.
+I'm developing my skills in **data structures and algorithms, software architecture, API design, automated testing and performance optimization** through practical projects, with an emphasis on clean code and scalable systems.
 
 ## 🛠️ Tech Stack
 
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=html,css,js,typescript,bootstrap,tailwindcss,nodejs,react,nextjs,astro,flutter,docker,git,postgresql,mongodb,sqlite,python,cs,materialui,npm,pnpm,postman,vercel,supabase,vite,arduino,figma,illustrator,aftereffects,photoshop,cpp,rust,swift,pytorch,fastapi,express,redis,linux,electron&theme=dark&perline=13" alt="core skills" />
+  <img src="https://skillicons.dev/icons?i=js,typescript,python,c,cpp,cs,rust,go,java,swift,kotlin,dart,lua,php,ruby,zig,r,scala,perl,haskell,bash,html,css,react,nextjs,vue,angular,svelte,astro,flutter,tailwindcss,bootstrap,materialui,nodejs,express,fastapi,django,flask,postgresql,mysql,sqlite,mongodb,redis,firebase,supabase,docker,kubernetes,aws,gcp,azure,vercel,git,github,gitlab,linux,ubuntu,npm,pnpm,postman,vite,electron,pytorch,tensorflow,arduino,raspberrypi,figma,illustrator,aftereffects,photoshop&theme=dark&perline=14" alt="Languages, frameworks, databases and development tools" />
 </p>
 
-- **Languages:** JavaScript · TypeScript · Python · C++ · Rust · Swift · SQL
-- **Frontend & Mobile:** HTML5 · CSS3 · React · Next.js · Astro · Flutter · React Native · Tailwind CSS · Bootstrap · Material UI
-- **ML & Systems:** PyTorch · ONNX · CUDA · pybind11 · MLX · Continuous Batching · Autograd
-- **Backend & Cloud:** Node.js · Supabase · FastAPI · Express · REST APIs · RPC
-- **Databases:** PostgreSQL · MongoDB · SQLite · Redis
-- **DevOps & Tools:** Git · Docker · Vite · npm · pnpm · Postman · Vercel · Linux · Electron · Apple Silicon / Metal
+- **Languages:** JavaScript · TypeScript · Python · C · C++ · C# · Objective-C · Java · Rust · Go · PHP · Ruby · Swift · Kotlin · Dart · Lua · Zig · R · Scala · Perl · Haskell · Bash · Assembly · SQL · MATLAB
+- **Frontend & Mobile:** HTML5 · CSS3 · React · Next.js · Vue.js · Angular · Svelte · Astro · Flutter · React Native · Tailwind CSS · Bootstrap · Material UI
+- **Backend & APIs:** Node.js · FastAPI · Express · Django · Flask · Spring Boot · discord.js · REST APIs · GraphQL · gRPC · RPC · RabbitMQ
+- **Databases & Data:** PostgreSQL · MySQL · MongoDB · SQLite · Redis · Firebase · Cassandra · Elasticsearch · Supabase
+- **DevOps & Cloud:** Docker · Kubernetes · AWS · GCP · Azure · Nginx · Apache · GitHub Actions · Jenkins · Vercel
+- **Tools & Platforms:** Git · GitHub · GitLab · Linux · Ubuntu · npm · pnpm · Postman · Vite · Webpack · Electron · Termux · PM2 · Apple Silicon / Metal
+- **ML & AI Systems:** PyTorch · TensorFlow · Keras · Scikit-learn · ONNX · CUDA · TensorRT · OpenCV · pybind11 · MLX · LangChain · Hugging Face · Continuous Batching · Autograd
 - **Design & Multimedia:** Figma · Adobe Photoshop · Illustrator · After Effects
-- **Hardware & IoT:** Arduino · ESP32
+- **Hardware & IoT:** Arduino · ESP32 · Raspberry Pi
 
 ---
 
