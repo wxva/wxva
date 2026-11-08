@@ -1,12 +1,14 @@
 <img src="https://raw.githubusercontent.com/wxva/wxva/main/banner-study.jpeg" alt="Study setup" width="100%">
 
-I'm a **17-year-old software engineer** focused on building reliable, maintainable applications, backend services and developer tools.
+I'm a **17-year-old software engineer** focused on building reliable, maintainable applications, backend services, and developer tools. My work also spans AI infrastructure, systems and network architecture, data center engineering, and cybersecurity research.
 
-My main stack is **JavaScript, TypeScript, React, Next.js, Node.js and Tailwind CSS**, while I'm broadening my knowledge of **Python, systems programming, databases and cloud infrastructure**.
+My main stack is **JavaScript, TypeScript, React, Next.js, Node.js, and Tailwind CSS**, while I continue to expand my knowledge of Python, systems programming, databases, and cloud infrastructure.
 
-I'm developing my skills in **data structures and algorithms, software architecture, API design, automated testing and performance optimization** through practical projects, with an emphasis on clean code and scalable systems.
+My infrastructure work includes building dedicated AI clusters, orchestrating large-scale model pipelines, and designing high-throughput, fault-tolerant networks. I also research critical infrastructure security, with a particular interest in ICS/SCADA systems used in nuclear power plants.
 
-## 🛠️ Tech Stack
+Through practical projects, I'm strengthening my skills in **data structures and algorithms, software architecture, API design, automated testing, and performance optimization**. My goal is to connect clean, maintainable code with scalable infrastructure, reliable systems, and strong security.
+
+## Core Skills
 
 <p align="left">
   <img src="https://skillicons.dev/icons?i=js,typescript,python,c,cpp,cs,rust,go,java,swift,kotlin,dart,lua,php,ruby,zig,r,scala,perl,haskell,bash,html,css,react,nextjs,vue,angular,svelte,astro,flutter,tailwindcss,bootstrap,materialui,nodejs,express,fastapi,django,flask,postgresql,mysql,sqlite,mongodb,redis,firebase,supabase,docker,kubernetes,aws,gcp,azure,vercel,git,github,gitlab,linux,ubuntu,npm,pnpm,postman,vite,electron,pytorch,tensorflow,arduino,raspberrypi,figma,illustrator,aftereffects,photoshop&theme=dark&perline=14" alt="Languages, frameworks, databases and development tools" />
