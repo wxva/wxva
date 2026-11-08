@@ -37,7 +37,8 @@ jobs:
           const output = 'dist/snake-live.svg';
           const moves = (svg) => {
             const keyframes = svg.split('@keyframes s0')[1]?.split('@keyframes s1')[0];
-            return keyframes && (keyframes.match(/transform:translate/g) || []).length > 1;
+            const positions = keyframes ? [...keyframes.matchAll(/transform:translate\(([^)]+)\)/g)].map(match => match[1]) : [];
+            return new Set(positions).size > 1;
           };
           const generated = await readFile(output, 'utf8');
           if (!moves(generated)) {
@@ -57,5 +58,46 @@ jobs:
           target_branch: snake-output
           build_dir: dist
           keep_history: true
+          allow_empty_commit: false
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Reference the published animation without stale image caches
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        shell: bash
+        run: |
+          node --input-type=module <<'NODE'
+          const api = `https://api.github.com/repos/${process.env.GITHUB_REPOSITORY}`;
+          const headers = {
+            Authorization: `Bearer ${process.env.GH_TOKEN}`,
+            Accept: 'application/vnd.github+json',
+            'Content-Type': 'application/json'
+          };
+          const get = async (path) => {
+            const response = await fetch(api + path, {headers});
+            if (!response.ok) throw new Error(`GitHub read failed: ${response.status}`);
+            return response.json();
+          };
+          const head = await get('/git/ref/heads/snake-output');
+          if (!/^[a-f0-9]{40}$/.test(head.object.sha)) throw new Error('Invalid animation revision');
+          const file = await get(`/contents/README.md?ref=${process.env.GITHUB_REF_NAME}`);
+          const previous = Buffer.from(file.content, 'base64').toString('utf8');
+          const image = `<img src="https://raw.githubusercontent.com/${process.env.GITHUB_REPOSITORY}/${head.object.sha}/snake-live.svg" alt="Snake animation" />`;
+          const current = previous.replace(/<img src="[^"]+" alt="Snake animation" \/>/, image);
+          if (current === previous) {
+            console.log('README already references this animation revision.');
+          } else {
+            const response = await fetch(api + '/contents/README.md', {
+              method: 'PUT', headers,
+              body: JSON.stringify({
+                message: 'Update snake animation reference',
+                content: Buffer.from(current).toString('base64'),
+                sha: file.sha,
+                branch: process.env.GITHUB_REF_NAME
+              })
+            });
+            if (!response.ok) throw new Error(`README update failed: ${response.status}`);
+            console.log('README now references the published animation revision.');
+          }
+          NODE
