@@ -31,6 +31,6 @@ I'm currently focused on building projects that go beyond basic implementations 
 
 <br clear="both">
 
-<img src="https://raw.githubusercontent.com/wxva/wxva/snake-output/snake-live.svg" alt="Snake animation" />
+<img src="https://raw.githubusercontent.com/wxva/wxva/97d2dfa11bb27a6c47887fd2537c6c4bf48e3bff/snake-live.svg" alt="Snake animation" />
 
 ###
