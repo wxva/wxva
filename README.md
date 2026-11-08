@@ -1,14 +1,22 @@
 <img src="https://raw.githubusercontent.com/wxva/wxva/main/banner-study.jpeg" alt="Study setup" width="100%">
 
-I'm a **17-year-old software engineer** focused on building reliable software, scalable systems, and useful products. I work across backend development, systems programming, and AI infrastructure, combining engineering with project management and product analysis to connect user needs with technical delivery.
+# Software Engineer
 
-My core stack is **Python, C++, Rust, Go, TypeScript, and SQL**, supported by Linux, Git, Docker, PostgreSQL, and Redis. I focus on software architecture, API and database design, automated testing, and performance optimization, with an emphasis on data structures, algorithms, and maintainable code.
-
-My infrastructure work spans **dedicated AI clusters, model pipelines, data center engineering, and fault-tolerant networks**, exploring how software, hardware, and networking support demanding workloads. My cybersecurity research includes critical infrastructure and ICS/SCADA systems used in nuclear power plants. I also study social engineering and human behavior to understand security decisions and help strengthen organizational defenses.
-
-As a **project manager and product analyst**, I turn user needs into requirements, priorities, delivery plans, and measurable outcomes. I connect product metrics with testable hypotheses, coordinate work, and manage delivery risks. My approach to leadership centers on clear communication, accountability, initiative, and shared goals. I value critical thinking, adaptability, constructive feedback, and making complex ideas easier to understand.
+I'm a **17-year-old software engineer** building reliable applications, backend services, systems software, and AI infrastructure. I also work in **project management and product analysis**, connecting user needs with technical decisions and delivery priorities.
 
 ## Core Skills
+
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=python,cpp,rust,go,typescript,nodejs,fastapi,postgresql,redis,linux,git,docker&theme=dark&perline=6" alt="Primary languages and development tools" />
+</p>
+
+- **Core languages:** Python · C++ · Rust · Go · TypeScript · SQL
+- **Engineering:** Data Structures & Algorithms · Software Architecture · API & Database Design · Automated Testing · Debugging · Performance Optimization
+- **Backend & Data:** Node.js · FastAPI · PostgreSQL · Redis
+- **Environment:** Linux · Git · Docker
+
+<details>
+<summary>Full skills and technologies</summary>
 
 <p align="left">
   <img src="https://skillicons.dev/icons?i=python,cpp,rust,go,typescript,java,cs,c,js,swift,kotlin,dart,php,ruby,lua,zig,r,scala,perl,haskell,bash,nodejs,fastapi,express,django,flask,postgresql,mysql,mongodb,sqlite,redis,firebase,supabase,docker,kubernetes,aws,gcp,azure,vercel,git,github,gitlab,linux,ubuntu,npm,pnpm,postman,vite,electron,html,css,react,nextjs,vue,angular,svelte,astro,flutter,tailwindcss,bootstrap,materialui,pytorch,tensorflow,arduino,raspberrypi,figma,illustrator,aftereffects,photoshop&theme=dark&perline=14" alt="Languages, frameworks, databases and development tools" />
@@ -28,21 +36,28 @@ As a **project manager and product analyst**, I turn user needs into requirement
 - **Product & Delivery:** Requirements Definition · Prioritization · Delivery Planning · Work Coordination · Risk Management · Product Metrics · Hypothesis Testing · User Behavior Analysis
 - **Leadership & Collaboration:** Clear Communication · Accountability · Initiative · Shared Goals · Critical Thinking · Adaptability · Constructive Feedback · Explaining Complex Ideas
 
+</details>
+
+## Infrastructure & Security Research
+
+My infrastructure work includes **dedicated AI clusters, model pipelines, AI data center engineering, and high-throughput, fault-tolerant networks**. I'm interested in how software, hardware, and networking work together to support demanding workloads.
+
+My cybersecurity research covers **critical infrastructure and ICS/SCADA environments**, including systems used in nuclear power plants. I also study **social engineering and human behavior** to understand security decisions and strengthen organizational defenses.
+
+## Product & Delivery
+
+- **Project management:** Define requirements, set priorities, coordinate work, and manage risks throughout delivery.
+- **Product analysis:** Connect user needs and behavior with meaningful metrics and testable hypotheses to guide decisions.
+- **Leadership:** Communicate clearly, take responsibility, encourage constructive feedback, and keep the team aligned on shared goals.
+
 ## Beyond Code
 
-Outside technology, I play chess with a **2600 rating on Chess.com**. I enjoy the combination of strategic thinking, pattern recognition, and disciplined decision-making under pressure.
+I play chess with a **2600 rating on Chess.com**. I value the strategic planning, pattern recognition, and disciplined decision-making the game demands.
 
----
+## Links
 
-## 🌐 Let's connect
+[GitHub](https://github.com/wxva) · [Repositories](https://github.com/wxva?tab=repositories)
 
-[![GitHub](https://img.shields.io/badge/🌎_GitHub-@wxva-7c3aed?style=flat-square)](https://github.com/wxva)
-[![Projects](https://img.shields.io/badge/💼_Projects-@wxva-0a66c2?style=flat-square)](https://github.com/wxva?tab=repositories)
-
-###
-
-<br clear="both">
+## Activity
 
 <img src="https://raw.githubusercontent.com/wxva/wxva/97d2dfa11bb27a6c47887fd2537c6c4bf48e3bff/snake-live.svg" alt="Snake animation" />
-
-###
