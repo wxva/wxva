@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/wxva/wxva/main/banner-sand-wxva.png" alt="wxva — always in motion." width="100%">
+<img src="https://raw.githubusercontent.com/wxva/wxva/main/banner-wxva-17-coder.png" alt="wxva 17 coder" width="100%">
 
 I'm a **17-year-old developer**, passionate about building modern web applications and continuously improving my software engineering skills.
 
