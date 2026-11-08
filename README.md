@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/wxva/wxva/main/banner.png?v=manga" alt="black-and-white manga banner" width="100%">
+  <img src="https://raw.githubusercontent.com/wxva/wxva/main/banner.png?v=manga-title" alt="wxva 17 the coder — manga banner" width="100%">
 </p>
 
 ### about
