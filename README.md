@@ -43,12 +43,13 @@ I play chess with a **2600 rating on Chess.com**. I value the strategic planning
 ## Links
 
 <p align="left">
-  <a href="https://github.com/wxva" title="GitHub profile of wxva"><img src="https://raw.githubusercontent.com/wxva/wxva/main/assets/links/github.svg?v=2" alt="GitHub profile of wxva" width="164" height="56" /></a>&nbsp;&nbsp;
-  <a href="mailto:wxvaxd@gmail.com" title="Email wxvaxd@gmail.com"><img src="https://raw.githubusercontent.com/wxva/wxva/main/assets/links/gmail.svg?v=2" alt="Email wxvaxd@gmail.com" width="152" height="56" /></a>&nbsp;&nbsp;
-  <a href="https://www.chess.com/member/wxvau" title="Chess.com profile of wxvau"><img src="https://raw.githubusercontent.com/wxva/wxva/main/assets/links/chess.svg?v=2" alt="Chess.com profile of wxvau" width="208" height="56" /></a>
+  <a href="https://github.com/wxva" title="GitHub profile of wxva"><img src="https://raw.githubusercontent.com/wxva/wxva/main/assets/links/github-full.svg" alt="GitHub profile of wxva" width="164" height="56" /></a>&nbsp;&nbsp;
+  <a href="mailto:wxvaxd@gmail.com" title="Email wxvaxd@gmail.com"><img src="https://raw.githubusercontent.com/wxva/wxva/main/assets/links/gmail-full.svg" alt="Email wxvaxd@gmail.com" width="152" height="56" /></a>&nbsp;&nbsp;
+  <a href="https://www.chess.com/member/wxvau" title="Chess.com profile of wxvau"><img src="https://raw.githubusercontent.com/wxva/wxva/main/assets/links/chess-full.svg" alt="Chess.com profile of wxvau" width="208" height="56" /></a>
 </p>
 
 ## Activity
 
 <img src="https://raw.githubusercontent.com/wxva/wxva/9603654fc1d89dc5702a6fce9d6180363c11d2b9/snake-live.svg" alt="Snake animation" />
+
 
