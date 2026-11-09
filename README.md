@@ -42,7 +42,11 @@ I play chess with a **2600 rating on Chess.com**. I value the strategic planning
 
 ## Links
 
-[GitHub](https://github.com/wxva) · [Repositories](https://github.com/wxva?tab=repositories)
+<p align="left">
+  <a href="https://github.com/wxva" title="GitHub profile of wxva"><img src="https://raw.githubusercontent.com/wxva/wxva/main/assets/links/github.svg" alt="GitHub profile of wxva" width="184" height="68" /></a>&nbsp;&nbsp;
+  <a href="mailto:wxvaxd@gmail.com" title="Email wxvaxd@gmail.com"><img src="https://raw.githubusercontent.com/wxva/wxva/main/assets/links/gmail.svg" alt="Email wxvaxd@gmail.com" width="172" height="68" /></a>&nbsp;&nbsp;
+  <a href="https://www.chess.com/member/wxvau" title="Chess.com profile of wxvau"><img src="https://raw.githubusercontent.com/wxva/wxva/main/assets/links/chess.svg" alt="Chess.com profile of wxvau" width="228" height="68" /></a>
+</p>
 
 ## Activity
 
