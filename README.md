@@ -7,7 +7,7 @@ I'm a **17-year-old software engineer** building reliable applications, backend 
 ## Core Skills
 
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=python,cpp,rust,go,typescript,java,cs,c,js,swift,kotlin,dart,php,ruby,lua,zig,r,scala,perl,haskell,bash,nodejs,fastapi,express,django,flask,postgresql,mysql,mongodb,sqlite,redis,firebase,supabase,docker,kubernetes,aws,gcp,azure,vercel,git,github,gitlab,linux,ubuntu,npm,pnpm,postman,vite,electron,html,css,react,nextjs,vue,angular,svelte,astro,flutter,tailwindcss,bootstrap,materialui,pytorch,tensorflow,arduino,raspberrypi,figma,illustrator,aftereffects,photoshop&theme=dark&perline=14" alt="Languages, frameworks, databases and development tools" />
+  <img src="https://raw.githubusercontent.com/wxva/wxva/main/assets/skills/core-skills-oled.svg" alt="Languages, frameworks, databases and development tools" />
 </p>
 
 - **Languages:** Python · C++ · Rust · Go · TypeScript · SQL · C# · Java · C · JavaScript · Objective-C · PHP · Ruby · Swift · Kotlin · Dart · Lua · Zig · R · Scala · Perl · Haskell · Bash · Assembly · MATLAB
@@ -51,5 +51,6 @@ I play chess with a **2600 rating on Chess.com**. I value the strategic planning
 ## Activity
 
 <img src="https://raw.githubusercontent.com/wxva/wxva/9603654fc1d89dc5702a6fce9d6180363c11d2b9/snake-live.svg" alt="Snake animation" />
+
 
 
